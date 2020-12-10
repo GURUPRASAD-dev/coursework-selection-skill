@@ -15,8 +15,7 @@ class CourseworkSelection(MycroftSkill):
     
     @intent_file_handler('coursework3.intent')
     def handle_coursework3(self, message):
-        self.speak(' high-level languages -Independeent of hardware, translated using either a compiler or   interpreter. one statement translates into many machine code instructions.  Low-level language - classified into 1 assembly language , which translated using an assembler. one statement translates into one machine code instruction. 2 machine code, the executable binary code produced either by a compilet, interpreter or assembler.
-')
+        self.speak(' high-level languages Independeent of hardware, translated using either a compiler or   interpreter. one statement translates into many machine code instructions.  Low-level language - classified into 1 assembly language , which translated using an assembler. one statement translates into one machine code instruction. 2 machine code, the executable binary code produced either by a compilet, interpreter or assembler.')
         
     @intent_file_handler('coursework4.intent')
     def handle_coursework4(self, message):
@@ -76,8 +75,7 @@ class CourseworkSelection(MycroftSkill):
         
     @intent_file_handler('coursework18.intent')
     def handle_coursework18(self, message):
-        self.speak(' Access to lectures and assignments depends on your type of enrollment. If you take a course in audit mode, you will be able to see most course materials for free. To access graded assignments and to earn a Certificate, you will need to purchase the Certificate experience, during or after your audit. If you dont see the audit option:The course may not offer an audit option. You can try a Free Trial instead, or apply for Financial Aid.The course may offer Full Course, No Certificate instead. This option lets you see all course materials, submit required assessments, and get a final grade. This also means that you will not be able to purchase a Certificate experience.
- ')    
+        self.speak(' Access to lectures and assignments depends on your type of enrollment. If you take a course in audit mode, you will be able to see most course materials for free. To access graded assignments and to earn a Certificate, you will need to purchase the Certificate experience, during or after your audit. If you dont see the audit option:The course may not offer an audit option. You can try a Free Trial instead, or apply for Financial Aid.The course may offer Full Course, No Certificate instead. This option lets you see all course materials, submit required assessments, and get a final grade. This also means that you will not be able to purchase a Certificate experience.')    
     
     @intent_file_handler('coursework19.intent')
     def handle_coursework19(self, message):
